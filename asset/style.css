@@ -1,0 +1,145 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color:#cccccc;
+}
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #F8F8FF;
+	background-color: navy;
+	font-weight: bold;
+}
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: black;
+	height: 22px;
+	border: 1px solid #C2CFDF;
+}
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #8BB2D9;
+	border: 1px solid #8BB2D9;
+}
+p, li {
+	line-height:175%;
+}
+hr{
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+  margin: 1em 0;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}
+a:link,a:visited,a:active {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #000000;text-decoration: none;}
+a:hover {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: blue;text-decoration: none;}
+
+/*________________TOOLTIP_____________*/
+#tooltip{
+	position:absolute;
+	border:1px solid #333;
+	background:#A2A7D7;
+	padding:5px;
+	color:#333;
+	display:none;
+	border-radius: 8px;
+}
+/*___________END TOOLTIP_____________*/
+
+/* produk */
+#produk {
+	list-style-position:inside;
+	list-style: none;
+}
+#produk a {color: #746759}
+#produk a .lis-produk-depan p {font-size: 20px; text-align: center; font-family: verdana}
+#produk a .lis-produk-depan {background: #A7BCCD; border: solid 2px #FFA800}
+#produk a .lis-produk-depan:hover{ background: navy; box-shadow: 0 0 35px #fff;}
+
+#produk .lis-produk-depan{
+	float: left; 
+	padding: 5px; 
+	border: dotted 1px navy; 
+	margin: 5px; 
+	border-radius: 4px;
+	width: 180px;
+	height: 160px;
+}
+#produk .lis-produk .isi, #produk .lis-produk-depan .isi{
+	height: 130px;
+	width: 140px;
+	background-image:url('folder.png');
+	background-position:center; 
+	background-size:150px 130px;
+	background-repeat:no-repeat;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	margin: 22px 20px auto;
+}
+
+#produk .lis-produk h3, #produk .lis-produk-depan h3{
+	font-weight:normal;
+	font-size: 12px;
+	margin: -4px -4px 0 -4px;
+	text-align: center;
+	padding: 4px;
+	border-radius: 4px;
+	background: #F9FCF2;
+	height: 35px;
+}
+
+#produk .lis-produk img, #produk .lis-produk-depan img{
+	margin: 13px;
+	width: 130px;
+	height: 150px;
+	border: solid 4px #F8F8FF;
+}
+#produk .lis-produk .more{
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	margin: 15px 15px auto;
+}
+
+#produk .lis-produk .isi img, #produk .lis-produk-depan .isi img{
+	margin: 30px 20px 50px 20px;
+	width: 90px;
+	height: 75px;
+	border: none;
+	box-shadow:3px 3px 3px 1px #ADC2B3;	
+}
+#produk .lis-produk {
+	float: left; 
+	padding: 4px; 
+	border: 2px solid #FFA800; 
+	margin: 5px; 
+	border-radius: 4px;
+	width: 180px;
+	height: 230px;
+	background: #E6E6FA;
+}
